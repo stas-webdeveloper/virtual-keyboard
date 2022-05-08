@@ -20,14 +20,15 @@ const keyboard = os === 'MacOS'
 let text
 
 window.onload = function() {
-    document
-        .querySelector('.app-container')
-        .innerHTML = `<div class="text-container">
-            <textarea class="text" readonly cols="160" rows="15" placeholder="Enter your wish..."></textarea>
-        </div>
-        <div class="keyboard-container">
-            ${keyboard}
-        </div>`
+    document.body
+        .innerHTML = `<div class="app-container">
+            <div class="text-container">
+                <textarea class="text" readonly cols="160" rows="15" placeholder="Enter your wish..."></textarea>
+            </div>
+            <div class="keyboard-container">
+                ${keyboard}
+            </div>
+        <div>`
     text = document.querySelector('.text')
 
     window.addEventListener('keydown', keyboardHandler)
