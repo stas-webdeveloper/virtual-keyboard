@@ -53,9 +53,6 @@ body {
   font-size: 25px;
   font-weight: bold;
   line-height: 1.3;
-//   white-space: nowrap;
-//   overflow: hidden;
-//   user-select: none;
   transition: all 0.1s ease;
   cursor: pointer;
 
@@ -182,13 +179,3 @@ body {
     color: #555;
   }
 }
-
-//   @media (min-width: 640px) {
-//     height: 48px;
-//     .keyboard-row.thin & {
-//       height: 28px;
-//     }
-//     .keyboard-row.bottom-row & {
-//       height: 55px;
-//     }
-//   }
