@@ -1,4 +1,4 @@
-export const macos = `<h1>Mac ENG keyboard</h1>
+const macos = `<h1>Mac ENG keyboard</h1>
             <div class="keyboard-row">
                 <div class="key" data-code="Backquote"><span>~<br/>\`</span></div>
                 <div class="key" data-code="Digit1"><span>!<br/>1</span></div>
@@ -109,4 +109,5 @@ export const macos = `<h1>Mac ENG keyboard</h1>
                     </div>
                     <div class="key" data-code="ArrowRight">&#9658;</div>
                 </div>
-            </div>`
+            </div>`;
+export default macos;
