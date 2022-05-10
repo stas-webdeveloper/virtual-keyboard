@@ -1,5 +1,5 @@
-import macos from './js/macos-layout';
-import win from './js/windows-layout';
+import macos from './js/macos-layout.js';
+import win from './js/windows-layout.js';
 
 // shiftKey Win === OS X
 // altKey Alt Win === Option OS X
