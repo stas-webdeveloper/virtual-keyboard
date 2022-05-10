@@ -1,4 +1,4 @@
-export const win = `<h1>Windows ENG keyboard</h1>
+const win = `<h1>Windows ENG keyboard</h1>
 
             <div class="keyboard-row">
                 <div class="key" data-code="Backquote"><span>~<br/>\`</span></div>
@@ -107,4 +107,5 @@ export const win = `<h1>Windows ENG keyboard</h1>
                     </div>
                     <div class="key" data-code="ArrowRight">&#9658;</div>
                 </div>
-            </div>`
+            </div>`;
+export default win;

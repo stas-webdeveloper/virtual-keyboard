@@ -1,4 +1,4 @@
-export const winru = `<h1>Windows RU keyboard</h1>
+const winru = `<h1>Windows RU keyboard</h1>
             <div class="keyboard-row">
                 <div class="key" data-code="Backquote"><span>~<br/>\`</span></div>
                 <div class="key" data-code="Digit1"><span>!<br/>1</span></div>
@@ -106,4 +106,5 @@ export const winru = `<h1>Windows RU keyboard</h1>
                     </div>
                     <div class="key" data-code="ArrowRight">&#9658;</div>
                 </div>
-            </div>`
+            </div>`;
+export default winru;
