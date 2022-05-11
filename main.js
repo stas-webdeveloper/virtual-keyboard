@@ -81,8 +81,9 @@ const keyboardHandler = (e) => {
 const btnPressHandler = (e) => {
   if (e.target.classList.contains('key') || e.target.parentElement.classList.contains('key')) {
     let btnCode;
-    let btnValue;
     let btnElement;
+    let btnValue;
+
 
     if (e.target.dataset.code === undefined) {
       btnCode = e.target.parentElement.dataset.code;
@@ -93,6 +94,10 @@ const btnPressHandler = (e) => {
       console.log('btnElement:', btnElement);
       btnCode = e.target.dataset.code;
     }
+
+    btnValue = btnElement.dataset.code;
+    console.log('btnValue:', btnValue);
+    text.textContent += btnValue;
 
     const btnElementColor = btnElement.style.backgroundColor;
     const isActive = btnElementColor === 'rgba(177, 232, 244, 0.4)';
@@ -109,7 +114,6 @@ const btnPressHandler = (e) => {
 
     console.log('btnCode:', btnCode);
     switch (btnCode) {
-      //  text.textContent += e.target.dataset.code
       case 'MetaLeft':
         // isMetaActive = !isMetaActive;
         lang = lang === 'RU' ? 'ENG' : 'RU';
@@ -117,8 +121,6 @@ const btnPressHandler = (e) => {
         localStorage.setItem('keyboard-lang', lang);
         getKeyboard();
         renderLayout();
-        // btnValue = btnElement.dataset.code;
-        // console.log('btnValue:', btnValue);
         break;
       case 'ControlLeft':
         changeColorFixed();
