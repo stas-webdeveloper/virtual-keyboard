@@ -1,4 +1,4 @@
-const winru = `<h1>Windows RU keyboard</h1>
+const winru = `<h1>Windows RU keyboard. Click Win button to switch on ENG</h1>
             <div class="keyboard-row">
                 <div class="key" data-code="Backquote"><span>Ё</span></div>
                 <div class="key" data-code="Digit1"><span>!<br/>1</span></div>

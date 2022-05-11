@@ -1,4 +1,4 @@
-const macru = `<h1>Mac RU keyboard</h1>
+const macru = `<h1>Mac RU keyboard. Click on Command button to switch on ENG</h1>
             <div class="keyboard-row">
                 <div class="key" data-code="Backquote"><span>Ё</span></div>
                 <div class="key" data-code="Digit1"><span>!<br/>1</span></div>
@@ -77,37 +77,38 @@ const macru = `<h1>Mac RU keyboard</h1>
                 </div>
             </div>
 
+
             <div class="keyboard-row bottom-row">
-                <div class="key lower-left lowercase">
+                <div class="key lower-left lowercase" data-code="ControlLeft">
                     <span class="lower-row-text">fn</span>
                 </div>
-                <div class="key lower-left lowercase">
+                <div class="key lower-left lowercase" data-code="ControlLeft">
                     <span class="lower-row-text">control</span>
                 </div>
-                <div class="key lower-left lowercase">
+                <div class="key lower-left lowercase" data-code="AltLeft">
                     <span class="lower-row-text">option</span>
                     <span class="absolute-left">alt</span>
                 </div>
-                <div class="key lower-center lowercase extra-size-two">
+                <div class="key lower-center lowercase extra-size-two" data-code="MetaLeft">
                     <span class="lower-row-text">command</span>
                     <span class="absolute-right icon">&#8984;</span>
                 </div>
-                <div class="key space-bar"></div>
-                <div class="key lower-center lowercase extra-size-two">
+                <div class="key space-bar" data-code="Space"></div>
+                <div class="key lower-center lowercase extra-size-two" data-code="ControlRight">
                     <span class="lower-row-text">command</span>
                     <span class="absolute-left icon">&#8984;</span>
                 </div>
-                <div class="key lower-right lowercase">
+                <div class="key lower-right lowercase" data-code="AltRight">
                     <span class="lower-row-text">option</span>
                     <span class="absolute-right">alt</span>
                 </div>
                 <div class="arrows">
-                    <div class="key">&#9668;</div>
+                    <div class="key" data-code="ArrowLeft">&#9668;</div>
                     <div class="up-down">
-                        <div class="key">&#9650;</div>
-                        <div class="key">&#9660;</div>
+                        <div class="key" data-code="ArrowUp">&#9650;</div>
+                        <div class="key" data-code="ArrowDown">&#9660;</div>
                     </div>
-                    <div class="key">&#9658;</div>
+                    <div class="key" data-code="ArrowRight">&#9658;</div>
                 </div>
 
             </div>`;

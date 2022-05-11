@@ -1,4 +1,4 @@
-const macos = `<h1>Mac ENG keyboard</h1>
+const macos = `<h1>Mac ENG keyboard. Click on Command button to switch on RU</h1>
             <div class="keyboard-row">
                 <div class="key" data-code="Backquote"><span>~<br/>\`</span></div>
                 <div class="key" data-code="Digit1"><span>!<br/>1</span></div>
@@ -81,14 +81,14 @@ const macos = `<h1>Mac ENG keyboard</h1>
                 <div class="key lower-left lowercase" data-code="ControlLeft">
                     <span class="lower-row-text">fn</span>
                 </div>
-                <div class="key lower-left lowercase" data-code="MetaLeft">
+                <div class="key lower-left lowercase" data-code="ControlLeft">
                     <span class="lower-row-text">control</span>
                 </div>
                 <div class="key lower-left lowercase" data-code="AltLeft">
                     <span class="lower-row-text">option</span>
                     <span class="absolute-left">alt</span>
                 </div>
-                <div class="key lower-center lowercase extra-size-two" data-code="ControlLeft">
+                <div class="key lower-center lowercase extra-size-two" data-code="MetaLeft">
                     <span class="lower-row-text">command</span>
                     <span class="absolute-right icon">&#8984;</span>
                 </div>
